@@ -23,10 +23,14 @@ all: $(objects)
 
 # Recipe for converting a Markdown file into PDF using Pandoc
 $(output)/%.pdf: $(source)/%.md
-	pandoc --variable mainfont="DejaVu Sans" \
+	pandoc \
+		--variable mainfont="DejaVu Sans" \
 		--variable monofont="DejaVu Sans Mono" \
 		--variable fontsize=11pt \
 		--variable geometry:margin=1.5cm \
+		--variable geometry:a4paper \
+		--table-of-contents \
+		--number-sections \
 		-f markdown  $< \
 		--latex-engine=lualatex \
 		-o $@
@@ -34,4 +38,4 @@ $(output)/%.pdf: $(source)/%.md
 .PHONY : clean
 
 clean:
-	rm -f $(output)/*
+	rm -f $(output)/*.pdf
