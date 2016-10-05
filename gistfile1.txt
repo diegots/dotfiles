@@ -9,4 +9,7 @@ git svn init --prefix=svn/ https://svn.fic.udc.es/grao4/dlp/16-17/<login>/P1/
 git svn fetch
 git reset --hard refs/remotes/svn/git-svn
 git pull
+
+# Make sure all *gz files and *.pdf are included. If not, just add them:
+git add *.tar.gz *pdf
 git svn dcommit
