@@ -1,0 +1,12 @@
+# Previously to do dcommit, package the project: 
+# make package
+# This will tar code directories and download latest report.
+
+# Then, to add the contents to the faculty repo:
+git clone https://github.com/diegots/fic-dlp-assignment-1.git
+cd fic-dlp-assignment-1/
+git svn init --prefix=svn/ https://svn.fic.udc.es/grao4/dlp/16-17/<login>/P1/
+git svn fetch
+git reset --hard refs/remotes/svn/git-svn
+git pull
+git svn dcommit
