@@ -12,6 +12,7 @@ alias chmod="chmod -v"
 alias chown="chown -v"
 alias wodim="wodim -v"
 alias ocaml='rlwrap ocaml'
+alias ocaml='rlwrap octave'
 alias gc='google-chrome --force-device-scale-factor=0.9'
 alias mc='mc -S gotar.ini'
 alias ogro='ssh ogro.mooo.com -p 22479'
