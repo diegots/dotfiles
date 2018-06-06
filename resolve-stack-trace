@@ -1,0 +1,12 @@
+
+gdb --args executablename arg1 arg2 arg3
+(gdb) set output-radix 16
+(gdb) x/5i 0x001004013D2
+(gdb) break *0x0000000000400448
+backtrace full
+
+Obtain function names and number lines from a core and a executable: addr2line
+
+https://sourceware.org/gdb/onlinedocs/gdb/Memory.html
+https://stackoverflow.com/questions/6618670/how-to-make-gdb-print-out-all-values-in-hexadecimal-mode
+https://stackoverflow.com/questions/8545931/using-gdb-to-convert-addresses-to-lines
