@@ -6,6 +6,7 @@ gdb --args executablename arg1 arg2 arg3
 backtrace full
 
 Obtain function names and number lines from a core and a executable: addr2line
+addr2line -e ./c2m-pma.exe 0x0000000100420129
 
 https://sourceware.org/gdb/onlinedocs/gdb/Memory.html
 https://stackoverflow.com/questions/6618670/how-to-make-gdb-print-out-all-values-in-hexadecimal-mode
