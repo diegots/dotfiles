@@ -1,16 +1,18 @@
-1. Cargar el CSV en sqlite. La primera fila debe contener los nombres de las columnas.
+Primero trabajado con en intérprete interactivo de SQLite:
+
+1. Cargar el CSV en sqlite. La primera fila debe contener los nombres de las columnas
 ```
 .mode csv 
 .header on
 .import flights14.csv tabla
 ```
-3. Ver la definición de la tabla creada
+2. Ver la definición de la tabla creada
 `.schema`
 
-2. Guardar la base de datos del CSV cargado
+3. Guardar la base de datos del CSV cargado
 `.save vuelos.sql`
 
-3. Una consulta de ejemplo:
+4. Una consulta de ejemplo:
 ```
 select 
   dep_delay as 'Departure delay',
@@ -21,7 +23,7 @@ where
   and dest='MIA' 
   and hour='21';
 ``` 
-4. Ejecutando desde la linea de comandos sobre la bd guardada:
+Las consultas se pueden lanzar desde la linea de comandos con la base de datos guardada:
 ```
 sqlite3 vuelos.sql 'select dep_delay from tabla where origin="JFK" and dest="MIA" and hour="21";'
 ```
