@@ -1,4 +1,4 @@
-1. Cargar el CSV en sqlite
+1. Cargar el CSV en sqlite. La primera fila debe contener los nombres de las columnas.
 ```
 .mode csv 
 .header on
