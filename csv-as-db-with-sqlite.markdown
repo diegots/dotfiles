@@ -4,6 +4,9 @@
 .header on
 .import flights14.csv tabla
 ```
+3. Ver la definición de la tabla creada
+`.schema`
+
 2. Guardar la base de datos del CSV cargado
 `.save vuelos.sql`
 
@@ -19,5 +22,4 @@ where
   and hour='21';
 ``` 
 [Documentación en (sqlite.org)](https://www.sqlite.org/cli.html)
-
 [CSV de ejemplo utilizado](https://github.com/Rdatatable/data.table/blob/master/vignettes/flights14.csv)
