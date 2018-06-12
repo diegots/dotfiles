@@ -22,7 +22,9 @@ where
   and hour='21';
 ``` 
 4. Ejecutando desde la linea de comandos sobre la bd guardada:
-`sqlite3 vuelos.sql 'select dep_delay from tabla where origin="JFK" and dest="MIA" and hour="21";'`
+```
+sqlite3 vuelos.sql 'select dep_delay from tabla where origin="JFK" and dest="MIA" and hour="21";'
+```
 
 - [Documentación en (sqlite.org)](https://www.sqlite.org/cli.html)
 - [CSV de ejemplo utilizado](https://github.com/Rdatatable/data.table/blob/master/vignettes/flights14.csv)
