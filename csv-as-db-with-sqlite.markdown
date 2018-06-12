@@ -18,5 +18,5 @@ where
   and dest='MIA' 
   and hour='21';
 ``` 
-Documentación: https://www.sqlite.org/cli.html
-CSV de ejemplo utilizado: https://github.com/Rdatatable/data.table/blob/master/vignettes/flights14.csv
+[Documentación en sqlite.org](https://www.sqlite.org/cli.html)
+[CSV de ejemplo utilizado](https://github.com/Rdatatable/data.table/blob/master/vignettes/flights14.csv)
