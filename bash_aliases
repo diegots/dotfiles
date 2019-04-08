@@ -1,6 +1,3 @@
-# Set some prompt tweaks
-# export PS1="[\u@\033[1;31m\h\[\033[0m\] \W]$\[\033[0m\] "
-
 # Common Linux tools
 alias l="ls -lh --color --group-directories-first"
 alias rm="rm -vi"
