@@ -1,4 +1,6 @@
-Primero trabajado con en intérprete interactivo de SQLite:
+Trabajado con en intérprete interactivo de SQLite:
+
+0. Ejecutar ```sqlite3``` en la linea de comandos.
 
 1. Cargar el CSV en sqlite. La primera fila debe contener los nombres de las columnas
 ```
