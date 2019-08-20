@@ -2,7 +2,7 @@
 
 ## Git
 
-### Unstage all files
+### Unstage *all* files
 ```
 git reset
 ```
