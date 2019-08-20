@@ -1,7 +1,7 @@
 # Frequently needed but always forgotten commands and shortcuts
 
 ## Atom
-- Select syntax highlighting: ```Ctrl-Shift-L```
+- Manually set syntax highlighting: ```Ctrl-Shift-L```
 
 ## Git
 
