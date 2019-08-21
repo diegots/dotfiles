@@ -1,14 +1,12 @@
 # Frequently needed but always forgotten commands, snippets and shortcuts
 
-## Atom
+## Atom editor
 - Manually set syntax highlighting: ```Ctrl-Shift-L```
 
 ## Git
-
-### Unstage *all* files
-```
-git reset
-```
+- Unstage *all* files, ```git reset```
+- Create a tag git message: ```git tag -a v1.4 -m "my version 1.4"```
+- Sharing tags: ```git push origin v1.4```
 
 ## Java language
 
