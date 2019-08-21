@@ -24,3 +24,8 @@ final String msg = num > 10
 ### Java
 - Change between Java versions: ```sudo update-alternatives --config java```
 - Just list the Java path: ```update-alternatives --list java```
+
+## Vim editor
+
+### Using spell check
+First select the language to be checked for with ```set spelllang=en``` and then, activate spell checking: ```setlocal spell```
