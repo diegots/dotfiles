@@ -8,6 +8,9 @@
 - Create a tag git message: ```git tag -a v1.4 -m "my version 1.4"```
 - Sharing tags: ```git push origin v1.4```
 
+## IntelliJ IDE
+- Go to line: ```Ctrl+G```
+
 ## Java language
 
 ### Ternary operator
