@@ -2,6 +2,7 @@
 
 ## Atom editor
 - Manually set syntax highlighting: ```Ctrl-Shift-L```
+- Go to line: ```Ctrl+G```
 
 ## Git
 - Unstage *all* files, ```git reset```
