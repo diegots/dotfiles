@@ -5,6 +5,7 @@
 - Go to line: ```Ctrl+G```
 
 ## Bash shell
+- Shebang: ```#!/usr/bin/env bash```.
 - One line for: ```for i in {1..5}; do COMMAND-HERE; done```.
 
 ## Git
