@@ -1,27 +1,27 @@
 # Frequently needed but always forgotten commands, snippets and shortcuts
 
 ## Atom editor
-- Manually set syntax highlighting: ```Ctrl-Shift-L```
-- Go to line: ```Ctrl+G```
-- Select multiple locations using multiple cursors: ```ctrl-leftclick```
+- Manually set syntax highlighting: ```Ctrl-Shift-L```.
+- Go to line: ```Ctrl+G```.
+- Select multiple locations using multiple cursors: ```ctrl-leftclick```.
 
 ## Bash shell
 - Shebang: ```#!/usr/bin/env bash```.
 - One line for: ```for i in {1..5}; do COMMAND-HERE; done```.
 
 ## Git
-- Unstage *all* files, ```git reset```
-- Create a tag git message: ```git tag -a v1.4 -m "my version 1.4"```
-- Sharing tags: ```git push origin v1.4```
-- List files under version control: ```git ls-files```
+- Unstage *all* files, ```git reset```.
+- Create a tag git message: ```git tag -a v1.4 -m "my version 1.4"```.
+- Sharing tags: ```git push origin v1.4```.
+- List files under version control: ```git ls-files```.
 
 ## IntelliJ IDE
-- Go to line: ```Ctrl+G```
+- Go to line: ```Ctrl+G```.
 
 ## Java language
 
 ### Ternary operator
-Syntax: ```booleanExpression ? expression1 : expression2```
+Syntax: ```booleanExpression ? expression1 : expression2```.
 Example:
 ```Java
 final String msg = num > 10
