@@ -4,6 +4,9 @@
 - Manually set syntax highlighting: ```Ctrl-Shift-L```
 - Go to line: ```Ctrl+G```
 
+## Bash shell
+- One line for: ```for i in {1..5}; do COMMAND-HERE; done```.
+
 ## Git
 - Unstage *all* files, ```git reset```
 - Create a tag git message: ```git tag -a v1.4 -m "my version 1.4"```
