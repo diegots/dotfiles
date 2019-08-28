@@ -3,6 +3,7 @@
 ## Atom editor
 - Manually set syntax highlighting: ```Ctrl-Shift-L```
 - Go to line: ```Ctrl+G```
+- Select multiple locations using multiple cursors: ```ctrl-leftclick```
 
 ## Bash shell
 - Shebang: ```#!/usr/bin/env bash```.
