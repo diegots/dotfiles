@@ -14,6 +14,7 @@
 - Create a tag git message: ```git tag -a v1.4 -m "my version 1.4"```.
 - Sharing tags: ```git push origin v1.4```.
 - List files under version control: ```git ls-files```.
+- List 99 tags with its tag message: ```git tag -n99```.
 
 ## IntelliJ IDE
 - Go to line: ```Ctrl+G```.
