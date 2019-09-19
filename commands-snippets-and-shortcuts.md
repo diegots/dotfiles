@@ -36,6 +36,9 @@ final String msg = num > 10
 - Change between Java versions: ```sudo update-alternatives --config java```
 - Just list the Java path: ```update-alternatives --list java```
 
+## SSH
+- Generating a new key pair: ```ssh-keygen -t rsa -b 4096 -C 'user@host.com'```
+
 ## Vim editor
 
 ### Using spell check
