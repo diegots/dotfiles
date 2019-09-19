@@ -37,7 +37,7 @@ final String msg = num > 10
 - Just list the Java path: ```update-alternatives --list java```
 
 ## SSH
-- Generating a new key pair: ```ssh-keygen -t rsa -b 4096 -C 'user@host.com'```
+- Generating a [new key pair](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key): ```ssh-keygen -t rsa -b 4096 -C 'user@host.com'```
 
 ## Vim editor
 
