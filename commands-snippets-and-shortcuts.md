@@ -4,7 +4,7 @@
 - Manually set syntax highlighting: ```Ctrl-Shift-L```.
 - Markdown preview : ```Ctrl-Shift-M```.
 - Go to line: ```Ctrl+G```.
-- Select multiple locations using multiple cursors: ```ctrl-leftclick```.
+- Select multiple locations using multiple cursors: ```Ctrl-LeftClick```.
 
 ## Bash shell
 - Shebang: ```#!/usr/bin/env bash```.
