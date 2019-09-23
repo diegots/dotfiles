@@ -1,6 +1,6 @@
 Trabajado con en intérprete interactivo de SQLite:
 
-0. Ejecutar ```sqlite3``` en la linea de comandos.
+1. Ejecutar ```sqlite3``` en la linea de comandos.
 
 1. Cargar el CSV en sqlite. La primera fila debe contener los nombres de las columnas
 ```
@@ -8,13 +8,13 @@ Trabajado con en intérprete interactivo de SQLite:
 .header on
 .import flights14.csv tabla
 ```
-2. Ver la definición de la tabla creada
+1. Ver la definición de la tabla creada
 `.schema`
 
-3. Guardar la base de datos del CSV cargado
+1. Guardar la base de datos del CSV cargado
 `.save vuelos.sql`
 
-4. Una consulta de ejemplo:
+1. Una consulta de ejemplo:
 ```
 select 
   dep_delay as 'Departure delay',
