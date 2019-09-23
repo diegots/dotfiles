@@ -8,7 +8,7 @@ Trabajado con en intérprete interactivo de SQLite:
 .header on
 .import flights14.csv tabla
 ```
-1. Ver la definición de la tabla creada
+3. Ver la definición de la tabla creada
 `.schema`
 
 1. Guardar la base de datos del CSV cargado
