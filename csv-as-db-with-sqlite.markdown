@@ -6,6 +6,7 @@ Trabajado con en intérprete interactivo de SQLite:
 ```
 .mode csv 
 .header on
+.separator "\t"
 .import flights14.csv tabla
 ```
 3. Ver la definición de la tabla creada
