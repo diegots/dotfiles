@@ -9,6 +9,7 @@
 ## Bash shell
 - Shebang: ```#!/usr/bin/env bash```.
 - One line for: ```for i in {1..5}; do COMMAND-HERE; done```.
+- Tell bash that arithmetic argument is base-10: ```echo $((10#09+1))``` instead of ```echo $((09+1))```.
 
 ## Git
 - Unstage *all* files, ```git reset```.
