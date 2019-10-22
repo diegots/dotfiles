@@ -41,6 +41,7 @@ final String msg = num > 10
 
 ## SSH
 - Generating a [new key pair](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key): ```ssh-keygen -t rsa -b 4096 -C 'user@host.com'```
+- Fix problem. Instruct ```ssh``` to use only identities provided by the command line ```-o IdentitiesOnly=yes```.
 
 ## Vim editor
 
