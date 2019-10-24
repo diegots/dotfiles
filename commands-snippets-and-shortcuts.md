@@ -11,6 +11,9 @@
 - One line for: ```for i in {1..5}; do COMMAND-HERE; done```.
 - Tell bash that arithmetic argument is base-10: ```echo $((10#09+1))``` instead of ```echo $((09+1))```.
 
+## ffmpeg
+- Extract audio from video file w/o conversion: ```fmpeg -i a.m4a -vn -acodec copy b.aac```
+
 ## Git
 - Unstage *all* files, ```git reset```.
 - Create a tag git message: ```git tag -a v1.4 -m "my version 1.4"```.
