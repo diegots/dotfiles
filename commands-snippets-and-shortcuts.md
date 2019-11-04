@@ -20,6 +20,7 @@
 - Sharing tags: ```git push origin v1.4```.
 - List files under version control: ```git ls-files```.
 - List 99 tags with its tag message: ```git tag -n99```.
+- Load Ssh agent and add one key: ```eval $(ssh-agent -s)```, then: ```ssh-add ~/.ssh/id_rsa```.
 
 ## IntelliJ IDE
 - Go to line: ```Ctrl+G```.
