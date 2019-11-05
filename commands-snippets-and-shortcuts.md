@@ -20,7 +20,8 @@
 - Sharing tags: ```git push origin v1.4```.
 - List files under version control: ```git ls-files```.
 - List 99 tags with its tag message: ```git tag -n99```.
-- Load Ssh agent and add one key: ```eval $(ssh-agent -s)```, then: ```ssh-add ~/.ssh/id_rsa```.
+- Load ssh agent and add one key: ```eval $(ssh-agent -s)```, then: ```ssh-add ~/.ssh/id_rsa```.
+- [Find the most recent common ancestor of two branches](https://stackoverflow.com/questions/1549146/git-find-the-most-recent-common-ancestor-of-two-branches): ```git merge-base branch2 branch3```.
 
 ## IntelliJ IDE
 - Go to line: ```Ctrl+G```.
