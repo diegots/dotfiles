@@ -38,6 +38,9 @@ final String msg = num > 10
   : "Number is less than or equal to 10";
 ```  
 
+## Python 3
+- Star minimal web server: ```python3 -m http.server```
+
 ## Ubuntu 18.04
 
 ### Java
