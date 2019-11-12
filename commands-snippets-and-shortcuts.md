@@ -39,7 +39,7 @@ final String msg = num > 10
 ```  
 
 ## Python 3
-- Star minimal web server: ```python3 -m http.server```
+- Star minimal web server: ```python3 -m http.server```. This is useful for testing a small idea cause Chrome and Firefox don't allow loading local files.
 
 ## Ubuntu 18.04
 
