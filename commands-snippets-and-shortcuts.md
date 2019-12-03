@@ -10,6 +10,7 @@
 - Shebang: ```#!/usr/bin/env bash```.
 - One line for: ```for i in {1..5}; do COMMAND-HERE; done```.
 - Tell bash that arithmetic argument is base-10: ```echo $((10#09+1))``` instead of ```echo $((09+1))```.
+- Display calendar with week days and starting on Mondays: ```ncal -M -y -b -w```
 
 ## ffmpeg
 - Extract audio from video file w/o conversion: ```ffmpeg -i a.m4a -vn -acodec copy b.aac```
