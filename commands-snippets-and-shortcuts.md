@@ -66,6 +66,20 @@ final String msg = num > 10
 | string        | dict    |     |
 | tuple         |         |     |
 
+### Indexing lists, tuples, dictionaries
+
+```
+>>> e=[1, 2, 3, 4] # list
+>>> f=(1, 2, 3, 4) # tuple
+>>> g={'a': 1, 'b': 2} # dict
+>>> e[0] # list first element
+1
+>>> f[0] # tuple first element
+1
+>>> g['a'] # dict first element
+1
+```
+
 ## Ubuntu 18.04
 
 ### Java
