@@ -58,13 +58,23 @@ final String msg = num > 10
 <class 'tuple'>
 >>> type({'a': 1, 'b': 2})
 <class 'dict'>
+>>> type(frozenset([4, 8, 3, 0]))
+<class 'frozenset'>
+>>> type(set([4, 8, 3, 0]))
+<class 'set'>
+>>> type({2, 9, 4, 6})
+<class 'set'>
 ```
 
-|   Inmutable   | Mutable |     |
-|---------------|---------|-----|
-| number values | list    |     |
-| string        | dict    |     |
-| tuple         |         |     |
+| Data type | Mutability |   Order   |          Contructor          |   Indexing    |
+|-----------|------------|-----------|------------------------------|---------------|
+| string    | inmutable  |           |                              |               |
+| numbers   | inmutable  |           |                              |               |
+| frozenset | inmutable  | unordered | frozenset(['a', 'b'])        | No: 'a' in fs |
+| set       | mutable    | unordered | {'a', 'b'} / set(['a', 'b']) | No: 'a' in s  |
+| list      | mutable    |           | ['a', 'b']                   | l[0]          |
+| dict      | mutable    |           | {'a': 4, 'b': 5}             | d['a']        |
+| tuple     | inmutable  |           | ('a', 'b')                   | t[0]          |
 
 ### Indexing lists, tuples, dictionaries
 
