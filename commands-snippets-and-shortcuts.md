@@ -38,9 +38,35 @@ final String msg = num > 10
   ? "Number is greater than 10"
   : "Number is less than or equal to 10";
 ```  
-
-## Python 3
+## Python 3 language
 - Start minimal web server: ```python3 -m http.server```. This is useful for testing a small idea cause Chrome and Firefox don't allow loading local files.
+
+### Basic data types
+
+```
+>>> type(123)
+<class 'int'>
+>>> type(55.20)
+<class 'float'>
+>>> type(4+9j)
+<class 'complex'>
+>>> type('hello world!')
+<class 'str'>
+>>> type([1, 2, 3, 4])
+<class 'list'>
+>>> type((1, 2, 3, 4))
+<class 'tuple'>
+>>> type({'a': 1, 'b': 2})
+<class 'dict'>
+```
+
++---------------+---------+-----+
+|   Inmutable   | Mutable |     |
++---------------+---------+-----+
+| number values | list    |     |
+| string        | dict    |     |
+| tuple         |         |     |
++---------------+---------+-----+
 
 ## Ubuntu 18.04
 
