@@ -64,6 +64,8 @@ final String msg = num > 10
 <class 'set'>
 >>> type({2, 9, 4, 6})
 <class 'set'>
+>>> type(range(3,8,2))
+<class 'range'>
 ```
 
 | Data type | Mutability |   Order   |          Contructor          |   Indexing    |
@@ -75,6 +77,7 @@ final String msg = num > 10
 | list      | mutable    |           | ['a', 'b']                   | l[0]          |
 | dict      | mutable    |           | {'a': 4, 'b': 5}             | d['a']        |
 | tuple     | inmutable  |           | ('a', 'b')                   | t[0]          |
+| range     | inmutable  |           | range(1,9,2) / range(5)      | r[0]          |
 
 ### Indexing lists, tuples, dictionaries
 
