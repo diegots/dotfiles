@@ -112,8 +112,8 @@ First select the language to be checked for with ```set spelllang=en``` and then
 
 ### Fix default permissions
 
-<https://www.turek.dev/post/fix-wsl-file-permissions/>
-<https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/>
+- <https://www.turek.dev/post/fix-wsl-file-permissions/>
+- <https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/>
 
 For viewing ```/mnt/``` files sane defaults, edit ```/etc/wsl.conf``` adding
 
@@ -131,6 +131,7 @@ fi
 ```
 
 ### Rebooting WSL
+
 Reboot a WSL system:
 1. Install ```wsl``` tool: ```apt-get install wsl```
 2. Using PowerShell: ```wsl -t 'distroName'```
