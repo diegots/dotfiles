@@ -111,6 +111,7 @@ First select the language to be checked for with ```set spelllang=en``` and then
 ## WSL
 
 ### Fix default permissions
+
 <https://www.turek.dev/post/fix-wsl-file-permissions/>
 <https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/>
 
