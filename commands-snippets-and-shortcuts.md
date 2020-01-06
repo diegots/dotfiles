@@ -115,7 +115,7 @@ First select the language to be checked for with ```set spelllang=en``` and then
 - <https://www.turek.dev/post/fix-wsl-file-permissions/>
 - <https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/>
 
-For viewing ```/mnt/``` files sane defaults, edit ```/etc/wsl.conf``` adding
+For viewing ```/mnt/``` files and folders with sane defaults, edit ```/etc/wsl.conf``` adding
 
 ```
 [automount]
