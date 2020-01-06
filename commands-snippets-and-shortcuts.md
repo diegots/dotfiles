@@ -107,3 +107,29 @@ final String msg = num > 10
 
 ### Using spell check
 First select the language to be checked for with ```set spelllang=en``` and then, activate spell checking: ```setlocal spell```
+
+## WSL
+
+### Fix default permissions
+<https://www.turek.dev/post/fix-wsl-file-permissions/>
+<https://devblogs.microsoft.com/commandline/chmod-chown-wsl-improvements/>
+
+For viewing ```/mnt/``` files sane defaults, edit ```/etc/wsl.conf``` adding
+
+```
+[automount]
+enabled = true
+options = "metadata,umask=22,fmask=11"
+```
+The for fixing the creation of files and folders, add to ```.profile```:
+
+```
+if [[ "$(umask)" = "0000" ]]; then
+          umask 0022
+fi
+```
+
+### Rebooting WSL
+Reboot a WSL system:
+1. Install ```wsl``` tool: ```apt-get install wsl```
+2. Using PowerShell: ```wsl -t 'distroName'```
