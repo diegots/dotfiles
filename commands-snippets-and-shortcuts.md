@@ -99,6 +99,13 @@ final String msg = num > 10
 - Change between Java versions: ```sudo update-alternatives --config java```
 - Just list the Java path: ```update-alternatives --list java```
 
+## Scanning
+This tip is for manually scan a heap of documents and then making one PDF with them:
+
+1. ```scanimage --mode Gray -p --format=tiff --resolution 150 -x 210 -y 297 > 3.tiff```
+2. ```tiffcp {1..88}.tiff salida.tiff```
+3. ```tiff2pdf -q 100 -j -o final.pdf -p A4 salida.tiff```
+
 ## SSH
 - Generating a [new key pair](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key): ```ssh-keygen -t rsa -b 4096 -C 'user@host.com'```
 - Fix problem ```Too many authentication failures```. Instruct ```ssh``` to use only identities provided by the command line ```-o IdentitiesOnly=yes```.
