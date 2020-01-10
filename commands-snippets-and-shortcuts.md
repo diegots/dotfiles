@@ -1,5 +1,20 @@
 # Frequently needed but always forgotten commands, snippets and shortcuts
 
+## Ansible
+
+### Create multiple directories with a loop
+
+```
+- name: Creating directories
+  file:
+    path: "{{ item }}"
+    state: directory
+  with_items:
+    - "first-dir"
+    - "second-dir"
+    - "third dir"
+```
+
 ## Atom editor
 - Manually set syntax highlighting: ```Ctrl-Shift-L```.
 - Markdown preview : ```Ctrl-Shift-M```.
