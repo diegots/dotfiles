@@ -125,6 +125,10 @@ This tip is for manually scan a heap of documents and then making one PDF with t
 - Generating a [new key pair](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key): ```ssh-keygen -t rsa -b 4096 -C 'user@host.com'```
 - Fix problem ```Too many authentication failures```. Instruct ```ssh``` to use only identities provided by the command line ```-o IdentitiesOnly=yes```.
 
+## Subversion
+- Set ignore property: ```svn propset svn:ignore "ignore-this.txt" <dir-name>```
+- Edit ignore property: ```svn propedit svn:ignore <dir-name>```. This opens an editor where filenames can be added or removed, one per line.
+
 ## Vim editor
 
 ### Using spell check
