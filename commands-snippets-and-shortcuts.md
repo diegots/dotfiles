@@ -26,7 +26,8 @@
 - One line for: ```for i in {1..5}; do COMMAND-HERE; done```.
 - PS1 color: change ```COLOR``` bit in ```\[\033[COLOR]m\]``` located in ```.bashrc``` file.
 - Tell bash that arithmetic argument is base-10: ```echo $((10#09+1))``` instead of ```echo $((09+1))```.
-- Display calendar with week days and starting on Mondays: ```ncal -M -y -b -w```
+- Display calendar with week days and starting on Mondays: ```ncal -M -y -b -w```.
+- Test if file exists: ```[ -f file.txt ] && ls file.txt```.
 
 ## ffmpeg
 - Extract audio from video file w/o conversion: ```ffmpeg -i a.m4a -vn -acodec copy b.aac```
