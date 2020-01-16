@@ -24,6 +24,7 @@
 ## Bash shell
 - Shebang: ```#!/usr/bin/env bash```.
 - One line for: ```for i in {1..5}; do COMMAND-HERE; done```.
+- PS1 color: change ```COLOR``` bit in ```\[\033[COLOR]m\]``` located in ```.bashrc``` file.
 - Tell bash that arithmetic argument is base-10: ```echo $((10#09+1))``` instead of ```echo $((09+1))```.
 - Display calendar with week days and starting on Mondays: ```ncal -M -y -b -w```
 
