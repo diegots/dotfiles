@@ -130,6 +130,7 @@ This tip is for manually scan a heap of documents and then making one PDF with t
 ## Subversion
 - Set ignore property: ```svn propset svn:ignore "ignore-this.txt" <dir-name>```
 - Edit ignore property: ```svn propedit svn:ignore <dir-name>```. This opens an editor where filenames can be added or removed, one per line.
+- Commit only propedit changes: ```svn commit --depth empty .```
 
 ## Vim editor
 
