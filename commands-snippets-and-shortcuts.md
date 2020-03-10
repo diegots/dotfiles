@@ -110,6 +110,15 @@ final String msg = num > 10
 1
 ```
 
+## Screencast with Kazam
+
+Kazam h264 output it's not directly visible within Whatsapp. In order to fix this problem, ffmepg can be used to transcode the file:
+
+```
+ffmpeg -i $input_file -c:V libx264 -strict experimental -tune fastdecode \
+    -pix_fmt yuv420p $output_file
+```
+
 ## Ubuntu 18.04
 
 ### Java
