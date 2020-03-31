@@ -146,6 +146,12 @@ This tip is for manually scan a heap of documents and then making one PDF with t
 ### Using spell check
 First select the language to be checked for with ```set spelllang=en``` and then, activate spell checking: ```setlocal spell```
 
+### Background
+Tell vim if the background is dark: `set background=dark`
+
+### Line numbers
+For adding line numbers use: `set number`
+
 ## WSL
 
 ### Fix default permissions
