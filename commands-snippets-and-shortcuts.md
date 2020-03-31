@@ -169,7 +169,6 @@ fi
 ```
 
 ### Rebooting WSL
-
-Reboot a WSL system:
-1. Install ```wsl``` tool: ```apt-get install wsl```
-2. Using PowerShell: ```wsl -t 'distroName'```
+- First install `wsl` utility: `sudo apt-get install ubuntu-wsl`
+- Then list installed distros: `wsl.exe --list`
+- Use `terminate` flag for shutdown the envirinment: `wsl.exe --terminate <distro-name>`
