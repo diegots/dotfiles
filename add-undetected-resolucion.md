@@ -19,10 +19,10 @@ xrandr --newmode "$config_name" $mode_line
 
 Asociate it with one output:
 ```
-xrandr --addmode "$OUTPUT" "$NAME"
+xrandr --addmode "$output" "$config_name"
 ```
 
 Activate it:
 ```
-xrandr --output "$OUTPUT" --mode "$NAME"
+xrandr --output "$output" --mode "$config_name"
 ```
