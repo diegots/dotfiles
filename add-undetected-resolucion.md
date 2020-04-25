@@ -1,17 +1,28 @@
-First we run gtf or cvt to get the Modeline for the resolution we want:
+`cvt` tool can be used to get Modelines for the desired resolution:
 ```
-cvt 1600 900
-```
-
-Use variables:
-```
-NAME="My_Config"
-OUTPUT=VGA1
+cvt 1920 1080
 ```
 
-Execute these commands:
+Use variables to set all values:
 ```
-xrandr --newmode "$NAME" 118.25  1600 1696 1856 2112  900 903 908 934 -hsync +vsync
+h_res='1920'
+v_res='1080'
+freq='75.0'
+config_name="$h_resx$v_res_$freq"
+output='VGA-1'
+```
+
+Define the new mode:
+```
+xrandr --newmode "$config_name" $mode_line
+```
+
+Asociate it with one output:
+```
 xrandr --addmode "$OUTPUT" "$NAME"
+```
+
+Activate it:
+```
 xrandr --output "$OUTPUT" --mode "$NAME"
 ```
