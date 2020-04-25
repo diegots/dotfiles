@@ -1,4 +1,6 @@
-`cvt` tool can be used to get Modelines for any desired resolution:
+There exist a tool for adding custom resolution in Windows: <https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU>.
+
+In Linux can be done with the command line. `cvt` tool can be used to get Modelines for any desired resolution:
 ```
 cvt 1920 1080
 ```
