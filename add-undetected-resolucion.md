@@ -1,4 +1,4 @@
-There exist a tool for adding custom resolution in Windows: [Custom Resolution Utility](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU).
+There exist a tool for adding custom resolutions in Windows, [Custom Resolution Utility](https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU).
 
 In Linux can be done with the command line. `cvt` tool can be used to get Modelines for any desired resolution:
 ```
