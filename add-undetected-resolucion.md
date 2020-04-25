@@ -1,4 +1,4 @@
-`cvt` tool can be used to get Modelines for the desired resolution:
+`cvt` tool can be used to get Modelines for any desired resolution:
 ```
 cvt 1920 1080
 ```
