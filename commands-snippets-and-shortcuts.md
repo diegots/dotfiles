@@ -40,6 +40,8 @@
 - List 99 tags with its tag message: ```git tag -n99```.
 - Load ssh agent and add one key: ```eval $(ssh-agent -s)```, then: ```ssh-add ~/.ssh/id_rsa```.
 - [Find the most recent common ancestor of two branches](https://stackoverflow.com/questions/1549146/git-find-the-most-recent-common-ancestor-of-two-branches): ```git merge-base branch2 branch3```.
+- Delete branch: `git branch -d <banch-name>`.
+- Delete branch (forced): `git branch -D <banch-name>`.
 
 ## IntelliJ IDE
 - Go to line: ```Ctrl+G```.
