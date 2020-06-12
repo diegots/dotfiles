@@ -42,6 +42,7 @@
 - [Find the most recent common ancestor of two branches](https://stackoverflow.com/questions/1549146/git-find-the-most-recent-common-ancestor-of-two-branches): ```git merge-base branch2 branch3```.
 - Delete branch: `git branch -d <banch-name>`.
 - Delete branch (forced): `git branch -D <banch-name>`.
+- Create branch and switch to it: `git checkout -b <branch-name> `
 
 ## IntelliJ IDE
 - Go to line: ```Ctrl+G```.
