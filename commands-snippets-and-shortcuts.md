@@ -128,6 +128,10 @@ ffmpeg -i $input_file -c:V libx264 -strict experimental -tune fastdecode \
 - Change between Java versions: ```sudo update-alternatives --config java```
 - Just list the Java path: ```update-alternatives --list java```
 
+## Packages
+- Avoid a package from updating: `echo "PACKAGE hold" | sudo dpkg --set-selections`
+- Show holded packages: `dpkg --get-selections | grep hold`
+
 ## Scanning
 This tip is for manually scan a heap of documents and then making one PDF with them:
 
