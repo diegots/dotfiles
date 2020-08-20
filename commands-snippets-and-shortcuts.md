@@ -113,6 +113,13 @@ final String msg = num > 10
 1
 ```
 
+### Sorting lists of pairs by first or second element
+```
+my_list = [{'a': 4, 'b': 15}, {'a': 0, 'b': 4}, {'a': 12, 'b': 3}, {'a': 7, 'b': 8}]
+my_list.sort(key = lambda elem: (elem['a'])) # choose sort criteria
+my_list.sort(key = lambda elem: (elem['b']))
+```
+
 ## Screencast with Kazam
 
 Kazam h264 output it's not directly visible within Whatsapp. In order to fix this problem, ffmepg can be used to transcode the file:
