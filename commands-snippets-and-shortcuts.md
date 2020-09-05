@@ -44,6 +44,8 @@
 - Delete branch (forced): `git branch -D <banch-name>`.
 - Create branch and switch to it: `git checkout -b <branch-name> `
 - Find out when a file was added: `git log --diff-filter=A -- <file>`
+- View all changes to a file: `git log --follow -- <file>`
+- Same but with patches: `git log --follow -p -- <file>`
 
 ## IntelliJ IDE
 - Go to line: ```Ctrl+G```.
