@@ -43,6 +43,7 @@
 - Delete branch: `git branch -d <banch-name>`.
 - Delete branch (forced): `git branch -D <banch-name>`.
 - Create branch and switch to it: `git checkout -b <branch-name> `
+- Find out when a file was added: `git log --diff-filter=A -- <file>`
 
 ## IntelliJ IDE
 - Go to line: ```Ctrl+G```.
