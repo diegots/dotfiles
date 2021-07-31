@@ -31,3 +31,8 @@ set autoindent
 " <Ctrl-l> redraws the screen and removes any search highlighting.
 nnoremap <silent> <C-l> :nohl<CR><C-l>
 " or just use :nohlsearch or :noh
+
+" number
+" show absolute line numbers 
+set number
+
