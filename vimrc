@@ -8,21 +8,21 @@ set background=dark
 " In Insert mode: Use the appropriate number of spaces to insert a <Tab>.
 set expandtab
 
-" softtabstop
-" Number of spaces that a <Tab> counts for while performing editing operations,
-" like inserting a <Tab>.
-set softtabstop=4
+" tabstop
+" The width of a hard tabstop measured in "spaces" -- effectively the (maximum) 
+" width of an actual tab character
+set tabstop=4
 
 " shiftwidth
 " Number of spaces to use for each step of (auto)indent.
 set shiftwidth=4
 
+set smartindent
+set autoindent
+
 " hlsearch
 " When there is a previous search pattern, highlight all its matches.
 set hlsearch
-
-set smartindent
-set autoindent
 
 " wrap
 " wrap line to window size
