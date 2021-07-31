@@ -133,4 +133,5 @@ PATH=/opt/eclipse-standard-luna-SR2:$PATH
 # Gets the current git branch if there is one
 parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
 
