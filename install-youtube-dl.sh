@@ -5,8 +5,14 @@
 
 dest_dir="$HOME/4.bin"
 
-curl -# -L https://yt-dl.org/downloads/latest/youtube-dl -o $dest_dir/youtube-dl
-chmod -v a+rx $dest_dir/youtube-dl
+#url=https://yt-dl.org/downloads/latest/
+#app=youtube-dl
+
+url=https://github.com/yt-dlp/yt-dlp/releases/latest/download/
+app=yt-dlp
+
+curl -# -L $url/$app -o $dest_dir/$app
+chmod -v a+rx $dest_dir/$app
 
 # Usage
 # Start by listing all available contents from a resource
