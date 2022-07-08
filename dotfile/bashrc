@@ -15,14 +15,23 @@ parse_git_branch() {
      git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
-# Shared preferences
+# Shell preferences
+
+## PS1 variable
+PS1='\[\033[00;33m\]\u@\h\[\033[00m\]:\[\033[00;36m\]\w\[\033[00m\]\$ '
 
 ## Editor selection
 export VISUAL=vim
 export EDITOR="$VISUAL"
 export SVN_EDITOR=/usr/bin/vim
 
-## Colorful manpages
+## Theming
+
+## ls
+ls_colors_file=/home/diego/1.repo/dotfiles/theming/ls/LS_COLORS.sh
+export LS_COLORS="$(cat $ls_colors_file)"
+
+### manpages
 export LESS_TERMCAP_mb=$'\e[1;32m'
 export LESS_TERMCAP_md=$'\e[1;32m'
 export LESS_TERMCAP_me=$'\e[0m'
@@ -31,9 +40,6 @@ export LESS_TERMCAP_so=$'\e[01;33m'
 export LESS_TERMCAP_ue=$'\e[0m'
 export LESS_TERMCAP_us=$'\e[1;4;31m'
 
-# LS_COLORS
-export LS_COLORS="$(cat $path/$to/ls_colors_file.txt)"
-
-# JQ tool colors
+## jq
 export JQ_COLORS="1;31:1;39:1;39:7;39:1;32:1;35:1;39"
 
