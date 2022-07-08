@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "39a14ff3a5614d0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "831713b04e457c8b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tools/qpdf.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "43084f3966df9ed3",
+    "type": "split",
+    "children": [
+      {
+        "id": "28a88e596cad808c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09679e93ae342228",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "584af878bf0de6a6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "sheban",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3cca95b633f23a23",
+    "type": "split",
+    "children": [
+      {
+        "id": "416b8f0fd073f790",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d181d09019541a0c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tools/qpdf.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "831713b04e457c8b",
+  "lastOpenFiles": [
+    "tools/qpdf.md",
+    "tools/intelliJ.md",
+    "dev/reg-exp-support.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "a-curated-list-of-tips-and-tricks.md",
+    "tools/vim.md",
+    "tools/subversion.md",
+    "tools/ssh.md",
+    "tools/sqlite-use-csv-as-db.md"
+  ]
+}

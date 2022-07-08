@@ -1,3 +1,4 @@
+# Use a CSV file as DB in Sqlite
 Trabajado con en intérprete interactivo de SQLite:
 
 1. Ejecutar ```sqlite3``` en la linea de comandos.
@@ -16,7 +17,7 @@ Trabajado con en intérprete interactivo de SQLite:
 `.save vuelos.sql`
 
 1. Una consulta de ejemplo:
-```
+```sql
 select 
   dep_delay as 'Departure delay',
   arr_delay as 'Arribal delay' 
