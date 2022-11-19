@@ -20,9 +20,7 @@ if [[ "$(umask)" = "0000" ]]; then
 fi
 ```
 
-### Rebooting WSL
+### Manage
 - First install `wsl` utility: `sudo apt-get install ubuntu-wsl`
 - Then list installed distros: `wsl.exe --list`
 - Use `terminate` flag for shutdown the envirinment: `wsl.exe --terminate <distro-name>`
-
-#wsl
