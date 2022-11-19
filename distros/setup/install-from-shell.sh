@@ -9,6 +9,7 @@ sudo apt-get -y install tree
 sudo apt-get -y install mc
 sudo apt-get -y install git
 sudo apt-get -y install vim
+sudo apt-get -y install curl
 
 # GUI
 sudo apt-get -y install meld
