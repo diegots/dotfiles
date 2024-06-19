@@ -1,6 +1,6 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+# Folders
+.idea
+.obsidian
+
+# Files
 .DS_Store
-/build
